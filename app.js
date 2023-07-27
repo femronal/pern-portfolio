@@ -26,14 +26,14 @@ $(document).ready(function(){
 
     // ! TYPING ANIMATOR
     var typed = new Typed(".typing", {
-        strings: ["An Essayist", "A Researcher", "A Blogger", "A Scriptwriter", "A Business-Report Writer"],
+        strings: ["Full-Stack Engineer", "Cyber-Security Expert"],
         typeSpeed: 110,
         backSpeed: 60,
         loop: true
     })
 
     var typed = new Typed(".typing-2", {
-        strings: ["an Essayist", "a Researcher", "a Blogger", "a Scriptwriter", "a Business-Report Writer"],
+        strings: ["Full-Stack Engineer", "Cyber-Security Expert"],
         typeSpeed: 110,
         backSpeed: 60,
         loop: true

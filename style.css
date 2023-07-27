@@ -31,7 +31,7 @@ html{
 
 .navbar.sticky{
     padding: 15px 0;
-    background: crimson;
+    background: dodgerblue;
 }
 
 .navbar .max-width{
@@ -47,7 +47,7 @@ html{
 }
 
 .navbar .logo a span {
-    color: crimson;
+    color: dodgerblue;
     transition: all 0.3s ease;
 }
 
@@ -69,7 +69,7 @@ html{
 }
 
 .navbar .menu li a:hover {
-    color: crimson ;
+    color: dodgerblue ;
 }
 
 .navbar .sticky .menu li a:hover  {
@@ -90,7 +90,7 @@ html{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: crimson;
+    background: dodgerblue;
     right: 30px;
     bottom: 30px;
     text-align: center;
@@ -142,25 +142,25 @@ html{
 }
 
 .home .home-content .text-3 span {
-    color: crimson;
+    color: dodgerblue;
     font-weight: 500;
 }
 
 .home .home-content a {
     display: inline-block;
-    background: crimson;
+    background: dodgerblue;
     color: #fff;
     font-size: 25px;
     padding: 12px 35px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid dodgerblue;
     transition: all 0.3s ease;
 }
 
 
 .home .home-content a:hover {
-    color: crimson;
+    color: dodgerblue;
     background: none;
 }
 
@@ -212,7 +212,7 @@ section .title::after{
     bottom: -12px;
     left: 50%;
     font-size: 20px;
-    color: crimson;
+    color: dodgerblue;
     padding: 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -246,7 +246,7 @@ section .title::after{
 }
 
 .about .about-content .right .text span {
-    color: crimson;
+    color: dodgerblue;
 }
 
 .about .about-content .right p{
@@ -255,19 +255,19 @@ section .title::after{
 
 .about .about-content .right a{
     display: inline-block;
-    background: crimson;
+    background: dodgerblue;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
-    padding: 10px 30px;
-    margin-top: 20px;
+    padding: 1rem;
+    margin: 1.3rem 0;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid dodgerblue;
     transition: all 0.3s ease;
 }
 
 .about .about-content .right a:hover{
-    color: crimson;
+    color: dodgerblue;
     background: none;
 }
 
@@ -289,12 +289,13 @@ section .title::after{
 .services .title::after,
 .teams .title::after {
     background: #111;
-    content: 'My Niches';
+    content: 'Real Life';
     font-size: 17px;
 }
 
 .services .serv-content .card{
     width: calc(33% - 20px);
+    height: 23rem;
     background: #222;
     text-align: center;
     border-radius: 6px;
@@ -304,7 +305,7 @@ section .title::after{
 }
 
 .services .serv-content .card:hover{
-    background: crimson;
+    background: rgb(114, 3, 3);
 }
 
 .services .serv-content .card .box{
@@ -317,7 +318,7 @@ section .title::after{
 }
 .services .serv-content .card i {
     font-size: 50px;
-    color: crimson;
+    color: dodgerblue;
     transition: color 0.3s ease;
 }
 
@@ -347,21 +348,24 @@ section .title::after{
     font-weight: 600;
     margin-bottom: 10px;
 }
+.skills .skills-content p {
+    text-align: justify;
+}
 
 .skills .skills-content a {
     display: inline-block;
-    background: crimson;
+    background: dodgerblue;
     color: #fff;
     font-size: 15px;
     padding: 12px 35px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid dodgerblue;
     transition: all 0.3s ease;
 }
 
 .skills .skills-content a:hover{
-    color: crimson;
+    color: dodgerblue;
     background: none;
 }
 
@@ -394,7 +398,7 @@ section .title::after{
     height: 100%;
     left: 0;
     top: 0;
-    background-color: crimson;
+    background-color: dodgerblue;
 }
 
 .skills-content .right .html::before{
@@ -419,7 +423,7 @@ section .title::after{
 
 /* ! TEAMS SECTION */
 .teams .title::after{
-    content: "Written for";
+    content: "I use";
 }
 
 .teams .carousel .card{
@@ -431,7 +435,7 @@ section .title::after{
 }
 
 .teams .carousel .card:hover{
-    background: crimson;
+    background: dodgerblue;
 }
 
 .teams .carousel .card .box{
@@ -456,7 +460,7 @@ section .title::after{
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid crimson;
+    border: 5px solid dodgerblue;
     transition: all 0.3s ease;
 }
 
@@ -475,7 +479,7 @@ section .title::after{
     margin: 0 5px;
     outline: none !important;
     border-radius: 50%;
-    border: 2px solid crimson !important;
+    border: 2px solid dodgerblue !important;
     transition: all 0.3s ease;
 }
 
@@ -485,7 +489,7 @@ section .title::after{
 }
 
 .owl-dot.active, .owl-dot:hover {
-    background: crimson !important;
+    background: dodgerblue !important;
 }
 
 /* ! CONTACT SECTION */
@@ -524,7 +528,7 @@ section .title::after{
 
 .contact .contact-content .row i{
     font-size: 25px;
-    color: crimson;
+    color: dodgerblue;
 }
 
 .contact .contact-content .info .head {
@@ -585,8 +589,8 @@ section .title::after{
 .contact .right form .button button{
     width: 100%;
     height: 100%;
-    border: 2px solid crimson;
-    background: crimson;
+    border: 2px solid dodgerblue;
+    background: dodgerblue;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
@@ -596,7 +600,7 @@ section .title::after{
 }
 
 .contact .right form .button button:hover{
-    color: crimson;
+    color: dodgerblue;
     background: none;
 }
 
@@ -608,7 +612,7 @@ footer{
 }
 
 footer span a{
-    color: crimson;
+    color: dodgerblue;
     text-decoration: none;
 }
 
